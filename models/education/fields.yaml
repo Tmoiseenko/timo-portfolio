@@ -1,0 +1,31 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    title:
+        label: timo.portfolio::lang.education.field_labels.title
+        type: text
+
+    institution:
+        label: timo.portfolio::lang.education.field_labels.institution
+        type: text
+
+    description:
+        label: timo.portfolio::lang.education.field_labels.description
+        type: richeditor
+
+    date_to:
+        label: timo.portfolio::lang.education.field_labels.date_to
+        type: datepicker
+        mode: date
+        yearRange: 50
+        format: Y
+
+    created_at:
+        label: timo.portfolio::lang.created_at
+        disabled: true

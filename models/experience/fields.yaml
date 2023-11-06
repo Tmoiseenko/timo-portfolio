@@ -1,0 +1,49 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    position:
+        label: timo.portfolio::lang.experience.field_labels.position
+        type: text
+
+    employer:
+        label: timo.portfolio::lang.experience.field_labels.employer
+        type: text
+
+    employer_link:
+        label: timo.portfolio::lang.experience.field_labels.employer_link
+        type: text
+
+    logo:
+        label: timo.portfolio::lang.experience.field_labels.logo
+        type: mediafinder
+
+
+    description:
+        label: timo.portfolio::lang.experience.field_labels.description
+        type: richeditor
+
+    date_from:
+        label: timo.portfolio::lang.experience.field_labels.date_from
+        type: datepicker
+        mode: date
+        yearRange: 20
+
+    date_to:
+        label: timo.portfolio::lang.experience.field_labels.date_to
+        type: datepicker
+        mode: date
+        yearRange: 20
+
+    current:
+        label: timo.portfolio::lang.experience.field_labels.current
+        type: switch
+
+    created_at:
+        label: timo.portfolio::lang.created_at
+        disabled: true

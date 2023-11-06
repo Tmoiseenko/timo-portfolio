@@ -1,0 +1,50 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    birthday:
+        label: timo.portfolio::lang.settings.field_labels.birthday
+        type: datepicker
+        mode: date
+        yearRange: 60
+
+    country:
+        label: timo.portfolio::lang.settings.field_labels.country
+        type: text
+
+    city:
+        label: timo.portfolio::lang.settings.field_labels.city
+        type: text
+
+    email:
+        label: timo.portfolio::lang.settings.field_labels.email
+        type: email
+
+    phone:
+        label: timo.portfolio::lang.settings.field_labels.phone
+        type: text
+
+    resume_file:
+        label: timo.portfolio::lang.settings.field_labels.resume_file
+        type: mediafinder
+        mode: file
+    avatar:
+        label: timo.portfolio::lang.settings.field_labels.avatar
+        type: mediafinder
+
+    about:
+        label: timo.portfolio::lang.settings.field_labels.about
+        type: richeditor
+
+    socials:
+        label: timo.portfolio::lang.settings.field_labels.socials_title
+        type: repeater
+        form:
+            fields:
+                icon:
+                    label: timo.portfolio::lang.settings.field_labels.socials_icon
+                    type: dropdown
+                link:
+                    label: timo.portfolio::lang.settings.field_labels.socials_link
+                    type: text

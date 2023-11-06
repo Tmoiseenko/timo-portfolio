@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Setting
+
+# Model Form Field configuration
+form: $/timo/portfolio/models/setting/fields.yaml
+
+# Model Class name
+modelClass: Timo\Portfolio\Models\Setting
+
+# Default redirect location
+defaultRedirect: timo/portfolio/settings
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: timo/portfolio/settings/update/:id
+    redirectClose: timo/portfolio/settings
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: timo/portfolio/settings
+    redirectClose: timo/portfolio/settings
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

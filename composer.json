@@ -1,0 +1,14 @@
+{
+    "name": "timo/portfolio-plugin",
+    "type": "october-plugin",
+    "description": "plugin for creating a resume/portfolio.",
+    "authors": [
+        {
+            "name": "Timur Moiseenko",
+            "email": "angrav-6@yandex.com"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

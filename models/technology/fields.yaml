@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    title:
+        label: timo.portfolio::lang.project.field_labels.title
+        type: text
+
+    created_at:
+        label: timo.portfolio::lang.created_at
+        disabled: true

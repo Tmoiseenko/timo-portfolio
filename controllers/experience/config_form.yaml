@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Experience
+
+# Model Form Field configuration
+form: $/timo/portfolio/models/experience/fields.yaml
+
+# Model Class name
+modelClass: Timo\Portfolio\Models\Experience
+
+# Default redirect location
+defaultRedirect: timo/portfolio/experience
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: timo/portfolio/experience/update/:id
+    redirectClose: timo/portfolio/experience
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: timo/portfolio/experience
+    redirectClose: timo/portfolio/experience
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

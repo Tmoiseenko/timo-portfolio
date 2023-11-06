@@ -1,0 +1,10 @@
+v1.0.1: First version of Portfolio
+v1.0.2:
+    - 'Adding migrations'
+    - migrations/create_education_table.php
+    - migrations/create_experiences_table.php
+    - migrations/create_technologies_table.php
+    - migrations/create_skills_table.php
+    - migrations/create_projects_table.php
+    - migrations/create_portfolio_technologies_table.php
+

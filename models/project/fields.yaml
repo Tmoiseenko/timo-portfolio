@@ -1,0 +1,36 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+
+    title:
+        label: timo.portfolio::lang.project.field_labels.title
+        type: text
+
+    link_title:
+        label: timo.portfolio::lang.project.field_labels.link_title
+        type: text
+
+    link_url:
+        label: timo.portfolio::lang.project.field_labels.link_url
+        type: text
+
+    description:
+        label: timo.portfolio::lang.project.field_labels.description
+        type: richeditor
+
+    technologies:
+        label: timo.portfolio::lang.project.field_labels.technologies
+        type: relation
+        list: ~/plugins/timo/portfolio/models/technology/columns.yaml
+        recordsPerPage: 10
+        title: Find Record
+        nameFrom: title
+
+    created_at:
+        label: timo.portfolio::lang.created_at
+        disabled: true

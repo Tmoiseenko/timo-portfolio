@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: timo.portfolio::lang.skill.name
+
+# Model Form Field configuration
+form: $/timo/portfolio/models/skill/fields.yaml
+
+# Model Class name
+modelClass: Timo\Portfolio\Models\Skill
+
+# Default redirect location
+defaultRedirect: timo/portfolio/skill
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: timo/portfolio/skill/update/:id
+    redirectClose: timo/portfolio/skill
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: timo/portfolio/skill
+    redirectClose: timo/portfolio/skill
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

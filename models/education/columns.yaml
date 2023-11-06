@@ -1,0 +1,24 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+
+    title:
+        label: timo.portfolio::lang.education.field_labels.title
+        searchable: true
+
+    institution:
+        label: timo.portfolio::lang.education.field_labels.institution
+        searchable: true
+
+    date_to:
+        label: timo.portfolio::lang.education.field_labels.date_to
+        searchable: true
+
+    created_at:
+        label: timo.portfolio::lang.created_at
+        searchable: true
